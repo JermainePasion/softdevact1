@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <style>
-         nav ul li a {
-            text-decoration: none;
-            color: #EECEB9;
-            font-size: 1.3em;
-            transition: background-color 0.3s; 
-            padding: 2.5em 2em; 
-        }
-        nav ul li a:hover {
-            background-color: #202436; 
-        }
-    </style>
+   
     <header style="border-bottom: 3px solid #252525; padding: .5em 1em; display: flex; justify-content: space-between; align-items: center; position: fixed; width: 100%; background-color: #FEFBD8; top: 0; z-index: 1000;">
         <div style="font-size: 1.1em; margin: .6em 0; display: inline-block;">
             <h1>Testing</h1>
         </div>  
         <nav style="display: inline-block;">
-            <ul style="list-style: none; display: flex; padding: 0; margin: 0px;">
-                <li style="margin: 0 1em;"><a href="#photo" style="text-decoration: none; color: #EECEB9; font-size: 1.3em;">Photo</a></li>
-                <li style="margin: 0 0em;"><a href="#info" style="text-decoration: none; color: #BB9AB1; font-size: 1.3em;">Info</a></li>
-                <li style="margin: 0 1em;"><a href="#contact" style="text-decoration: none; color: #987D9A; font-size: 1.3em;">Table</a></li>
+            <ul style="list-style: none; display: flex; padding: 0; margin: 0;">
+                <li style="margin: 0 1em;">
+                    <a href="#photo" style="text-decoration: none; color: #EECEB9; font-size: 1.3em; transition: background-color 0.3s; padding: 2.5em 2em ;" 
+                    onmouseover="this.style.backgroundColor='#202436';" onmouseout="this.style.backgroundColor='transparent';">
+                        Photo
+                    </a>
+                </li>
+                <li style="margin: 0 0em;">
+                    <a href="#info" style="text-decoration: none; color: #BB9AB1; font-size: 1.3em; transition: background-color 0.3s; padding: 2.5em 2em ;" 
+                    onmouseover="this.style.backgroundColor='#202436';" onmouseout="this.style.backgroundColor='transparent';">
+                        Info
+                    </a>
+                </li>
+                <li style="margin: 0 1em;">
+                    <a href="#contact" style="text-decoration: none; color: #987D9A; font-size: 1.3em; transition: background-color 0.3s; padding: 2.5em 2em ;" 
+                    onmouseover="this.style.backgroundColor='#202436';" onmouseout="this.style.backgroundColor='transparent';">
+                        Table
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
